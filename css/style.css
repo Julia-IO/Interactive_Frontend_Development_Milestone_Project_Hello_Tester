@@ -16,7 +16,7 @@ body {
 .callout-container {
     height: 100vh;
 
-    background: url('../images/binario_background.jpg') no-repeat bottom right fixed;
+    background: url('../css/images/binario_background.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -208,7 +208,10 @@ div{
 }
 
 .card_image{
-	width: 100%;
+	width: 50%;
+    height: 50%;
+    align-items: center;
+    border-radius: 50%;
 }
 .bottom_button{
 	display: flex;
