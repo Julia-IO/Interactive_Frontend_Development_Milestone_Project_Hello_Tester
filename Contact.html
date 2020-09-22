@@ -11,7 +11,17 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>    
 <script src="https://kit.fontawesome.com/8c5fda933e.js" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+   <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_Lr3DZ8pNt8bWqs23t7eOu");
+   })();
+</script>
+
 </head>
 <body>
     <div class="container-fluid navalert-container">
@@ -19,7 +29,7 @@
             <div class="row d-none d-sm-block">
                 <div class="col-12">
                     <div class="site-wide-alert alert alert-warning">
-                        <strong>Try it for free!</strong> Work with a tester for free for 2 days! Save 20% with anual plans. <a href="">See here for details!</a>
+                        <strong>Try it for free!</strong> Work with a tester for free for 2 days! Save 20% with anual plans. <a href="Plans.html">See here for details!</a>
                     </div>
                 </div>
             </div>
@@ -54,96 +64,36 @@
             </div>
         </nav>
     </div>
+    <section class="container-fluid">
+        <div class="row bg-color-contact">
+            <div class="col">
+            <br><br><br><br><br><br>
+                <h3 class="contact-heading uppercase text-center">Try any of our testers for free</h3>
+                <h5 class="uppercase text-center">Tell us a bit more about your project!</h5>
 
-<div class="col-12 page-header">
-                        <h2 class="text-uppercase"><br><br><br><br>Our plans at a glance:</h2>
-                        <hr class="block-divider block-divider--short">
-                    </div>    
- 
-<div class="columns">
-  <ul class="price">
-    <li class="header">Day</li>
-    <li class="grey">€ 150 / day</li>
-    <li class="grey">1 meeting / day</li>
-    <li class="grey">5 reports /day </li>
-    <li class="grey">1 Device Type</li>
-    <li class="grey">Terminological management not included</li>
-    <li class="grey">GitHub commits not included</li>
-    <li class="grey"><a href="Contact.html" class="button">Sign Up</a></li>
-  </ul>
-</div>
+                <div class="center-form">
+                     <form onsubmit="return sendMail(this);">
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                        <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project description" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary" onclick="myFunction()">Send Project Request</button>
+                            <script>
+                                function myFunction() {
+                                 confirm("Your message has been sent!");
+                                  }
+                                  </script>
 
-<div class="columns">
-  <ul class="price">
-    <li class="header" style="background-color:#48D7F5">Year</li>
-    <li class="grey">€ 10000 / year</li>
-    <li class="grey">1 meeting / day</li>
-    <li class="grey">5 reports /day</li>
-    <li class="grey">Unlimited Device Types</li>
-     <li class="grey">Terminological management</li>
-    <li class="grey">GitHub commits</li>
-    <li class="grey"><a href="Contact.html" class="button">Sign Up</a></li>
-  </ul>
-</div>
-
-<div class="columns">
-  <ul class="price">
-    <li class="header">Month</li>
-    <li class="grey">€ 950 / month</li>
-    <li class="grey">1 meeting / day</li>
-    <li class="grey">5 reports / day</li>
-    <li class="grey">Unlimited Device Types</li>
-    <li class="grey">Terminological management</li>
-    <li class="grey">GitHub commits</li>
-    <li class="grey"><a href="Contact.html" class="button">Sign Up</a></li>
-  </ul>
-</div>
-
- 
-
-
-    <!-- Choose Plan -->
-    <div class="container-wrapper">
-        <div class="container quotes-container content-container">
-            <section class="quotes">
-                <div class="row">
-                    <div class="col-12 page-header">
-                        <h2 class="text-uppercase"><br>Choose the plan that's right for your team:</h2>
-                        <hr class="block-divider block-divider--short">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <div class="media">
-                            <div class="d-none d-sm-block">
-                                <img src="assets/css/images/hello-tester-logo.png" class="rounded-circle mr-3" height="100" width="100">
-                            </div>
-                            <div class="media-body">
-                                <blockquote class="blockquote">
-                                    <p>Billed daily, annually or monthly, cancel at any time. All our pricing plans come with a free 2-day trial. No credit card required.</p>
-                                    
-                                </blockquote>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="media">
-                            <div class="d-none d-sm-block">
-                                <img src="assets/css/images/hello-tester-logo.png" class="rounded-circle mr-3" height="100" width="100">
-                            </div>
-                            <div class="media-body">
-                                <blockquote class="blockquote">
-                                    <p>Do you have any questions about our pricing? Schedule a call. Choose a date and time that is most convenient for you.  </p>
-                                    
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
+                    </form>
                 </div>
-            </section>
-            <!-- /.quotes -->
+
+            </div>
         </div>
-    </div>
+
+    </section>
 
     <!-- Features -->
     <div class="container-wrapper container-wrapper--red">
@@ -179,12 +129,12 @@
                     </div>
                 </div>
             </section>
-            <!-- /.features -->
-        </div>
+            </div>
     </div>
+ <!-- /.features -->
 
 
-     <!-- Site footer -->
+ <!-- Site footer -->
     <footer class="site-footer">
       <div class="container">
         <div class="row">
@@ -237,15 +187,19 @@
       </div>
 </footer>
 
+ 
+
 <!-- Calendly badge widget begin -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
 <script type="text/javascript">Calendly.initBadgeWidget({ url: 'https://calendly.com/hello_tester/30min', text: 'Schedule time with me', color: '#00a2ff', textColor: '#ffffff', branding: true });</script>
 <!-- Calendly badge widget end -->
 
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="assets/js/sendEmail.js"></script>
 </body>
 
 </html>
