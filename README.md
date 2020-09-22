@@ -1,4 +1,4 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<img src="https://raw.githubusercontent.com/Julia-IO/Interactive_Frontend_Development_Milestone_Project_Hello_Tester/master/assets/css/images/hello-tester-logo.png" style="margin: 0;">
 
 Welcome Julia-IO,
 
