@@ -35,15 +35,16 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
                     <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="About.html">What We Do</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="solutions.html">Solutions</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="pricing.html">Pricing</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Testers
         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="Testers_es_ES.html">Spanish (Spain)</a>
-                            <a class="dropdown-item" href="Testers_es_US.html">Spanish (United States)</a>
-                            <a class="dropdown-item" href="Testers_es_LA.html">Latin American Spanish</a>
+                            <a class="dropdown-item" href="testers_es_ES.html">Spanish (Spain)</a>
+                            <a class="dropdown-item" href="testers_es_US.html">Spanish (United States)</a>
+                            <a class="dropdown-item" href="testers_es_LA.html">Latin American Spanish</a>
                         </div>
                     </li>
                 </ul>
@@ -69,21 +70,21 @@
 			<div class="card_bottom">
 				<h2 class="card_head">Deva Johnson (es_ES)</h2>
 				<p class="card_para">Deva is originally from the North of Spain. She graduated with a degree in Translation and Languages Interpreting from the Universidad Pontificia de Comillas (Madrid, Spain) and she then studied Applied Linguistics at the Universidad de Salamanca (Spain) and a Full Stack Software Development Diploma in Code Institute (Ireland). Her extensive experience includes working as QA Lead for Media Minds, a Wayra 2013 winner company specialised in developping educational apps and housed inside Telefonica's incubator in Madrid, and as QA Software Engineer for Apple in Siri Department. </p>
-				<button class="bottom_button" id="button_effects1">Download CV!</button>
+				<a href="deva.html"> <button class="bottom_button" id="button_effects1">Learn more!</button></a>
 			</div>
 		</div>
     <div class="card stream">
 			<img class="card_image" src="assets/css/images/nico.png" alt="coding icon">	
 			<h2 class="card_head">Nico Díez (es_ES)</h2>
 			<p class="card_para">Nico was born in Madrid and graduated from the University of Granada, Spain, in 2007 with a Degree in Translation and Interpreting. He worked for the University’s Translation Service during his last year as an English-Spanish translator and project manager. He then studied an European MA in Audiovisual Translation at the Autonomous University of Barcelona. The job that genuinely got his career off the ground was his two-year stint at Nintendo of Europe in Frankfurt, Germany. After that, he's been involved in hundreds of projects of video game, software, mobile apps and website localisation.</p>
-			<button class="bottom_button">Download CV!</button>
+			<a href="nico.html"> <button class="bottom_button">Learn more!</button></a>
 		</div>
 		
 		<div class="card stream">
 			<img class="card_image" src="assets/css/images/julia.png" alt="coding icon">
 			<h2 class="card_head">Julia Handal (es_ES)</h2>
 			<p class="card_para">Julia was born in Barcelona where she studied a degree in Translation and Interpreting and also a degree in Graphic Design. She cut her teeth as a translator at a small translation agency based in Granada where she started to work as a translator and localization engineer fresh out of college. In 2012 she got a job as a Spanish Quality Assurance Localisation Technician for an important videogames publisher in London. She specializes in audiovisual translation, localization and DTP and has took part in hundreds of projects with a strong creative and technological profile.  </p>
-			<button class="bottom_button">Download CV!</button>
+			<button class="bottom_button">Learn more!</button>
 		</div>
         </div>
   
@@ -145,6 +146,7 @@
   <button class="btn active" onclick="filterSelection('all')"> Show all</button>
   <button class="btn" onclick="filterSelection('devices')"> Devices</button>
   <button class="btn" onclick="filterSelection('systems')"> Operating Systems</button>
+   <button class="btn" onclick="filterSelection('languages')"> Languages</button>
  
 </div>
 
@@ -168,6 +170,11 @@
   <div class="filterDiv systems">Mac OS</div>
   <div class="filterDiv systems">Android OS</div>
   <div class="filterDiv systems">iOS</div>
+  <div class="filterDiv languages">English</div>
+  <div class="filterDiv languages">French</div>
+  <div class="filterDiv languages">Italian</div>
+  <div class="filterDiv languages">German</div>
+  <div class="filterDiv languages">Danish</div>
 </div>
 
 <script>
@@ -234,21 +241,21 @@ for (var i = 0; i < btns.length; i++) {
                         <div class="feature">
                             <h3><i class="fas fa-code d-none d-sm-block"></i> Code Repositories <span class="badge badge-success">NEW!</span></h3>
                             <p>Sync translation projects with the most popular code repositories — GitHub, GitLab, Bitbucket.</p>
-                            <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                           <p><a class="btn btn-sm btn-light" href="assets/pdfs/what-we-do.pdf" target="_blank">Read More</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="feature">
                             <h3><i class="fas fa-comment-alt d-none d-sm-block"></i> Linguistic testing</h3>
                             <p>Check your content for accuracy, consistency and usage. Also check proper dates / calendar formats, character display and images.</p>
-                            <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                            <p><a class="btn btn-sm btn-light" href="assets/pdfs/what-we-do.pdf" target="_blank">Read More</a></p>
                         </div>
                     </div>
                     <div class="col-12 d-md-none d-lg-block col-lg-4">
                         <div class="feature">
                             <h3><i class="fas fa-robot d-none d-sm-block"></i> Functional Testing</h3>
                             <p>Do the links point to correct pages? Is the application behaving as it is supposed to? Are the error messages localised properly?</p>
-                            <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                            <p><a class="btn btn-sm btn-light" href="assets/pdfs/what-we-do.pdf" target="_blank">Read More</a></p>
                         </div>
                     </div>
                 </div>
@@ -297,10 +304,9 @@ for (var i = 0; i < btns.length; i++) {
           <div class="col-xs-6 col-md-3">
             <h6>Legal</h6>
             <ul class="footer-links">
-              <li><a href="#">Legal Notice</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Blog Privacy Policy</a></li>
-              <li><a href="Contact.html">Contact</a></li>
+               <li><a href="legal.html">Legal Notice</a></li>
+              <li><a href="cookies.html">Cookies Policy</a></li>
+              <li><a href="contact.html">Contact</a></li>
               
             </ul>
           </div>
@@ -308,11 +314,11 @@ for (var i = 0; i < btns.length; i++) {
           <div class="col-xs-6 col-md-3">
             <h6>Quick Links</h6>
             <ul class="footer-links">
-              <li><a href="About.html">About Us</a></li>
-              <li><a href="Plans.html">Pricing</a></li>
-              <li><a href="Testers_es_ES.html">Spanish (Spain) Testers</a></li>
-              <li><a href="Testers_es_US.html">Spanish (USA) Testers</a></li>
-              <li><a href="Testers_es_US.html">Latin America Testers</a></li>
+              <li><a href="solutions.html">Solutions</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="testers_es_ES.html">Spanish (Spain) Testers</a></li>
+              <li><a href="testers_es_US.html">Spanish (USA) Testers</a></li>
+              <li><a href="testers_es_US.html">Latin America Testers</a></li>
             </ul>
           </div>
         </div>
