@@ -1,12 +1,13 @@
 <img src="https://raw.githubusercontent.com/Julia-IO/Interactive_Frontend_Development_Milestone_Project_Hello_Tester/master/assets/css/images/hello-tester-logo.png" style="margin: 0;">
 
-<h1 align="center">Code Institute Website</h1>
+<h1 align="center">Hello Tester Website</h1>
 
 [View the live project here.](https://codeinstitute.net)
 
-This is the main marketing website for Code Institute. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
+This is the main website for Hello Tester. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential clients and collaborators.
+<h2 align="center"><img src="https://raw.githubusercontent.com/Julia-IO/Interactive_Frontend_Development_Milestone_Project_Hello_Tester/master/assets/css/images/MacBook_Pro_View.png" style="margin: 0;"></h2><br>
+<h2 align="center"><img src="https://raw.githubusercontent.com/Julia-IO/Interactive_Frontend_Development_Milestone_Project_Hello_Tester/master/assets/css/images/iPad_Pro_View.png" style="margin: 0;"></h2><br>
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
 
 ## User Experience (UX)
 
@@ -20,20 +21,20 @@ This is the main marketing website for Code Institute. It is designed to be resp
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about coding challenges.
+        1. As a Returning Visitor, I want to find information about testers and their skills to see if they could fit in my projects.
         2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
         3. As a Returning Visitor, I want to find community links.
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
+        1. As a Frequent User, I want to check to see if there are any newly added Webinars.
         2. As a Frequent User, I want to check to see if there are any new blog posts.
         3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are Code Insititue red, and white.
+        -   The two main colours used are Hello Tester red, and white, as a representation of the Spanish flag.
     -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto is a friendly font used frequently in programming, so it is both attractive and appropriate.
     -   #### Imagery
         -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
 
@@ -57,6 +58,7 @@ This is the main marketing website for Code Institute. It is designed to be resp
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
 
@@ -76,8 +78,8 @@ This is the main marketing website for Code Institute. It is designed to be resp
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
     - Photoshop was used to create the logo, resizing images and editing photos for the website.
-1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+1. [Figma:](https://www.figma.com/)
+    - Figma was used to create the [wireframes](https://github.com/) during the design process.
 
 ## Testing
 
