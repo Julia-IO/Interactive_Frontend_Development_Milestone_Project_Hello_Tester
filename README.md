@@ -5,8 +5,12 @@
 [View the live project here.](https://codeinstitute.net)
 
 This is the main website for Hello Tester. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential clients and collaborators.
+<h1 align="center">MacBook Pro View</h1>
 <h2 align="center"><img src="https://raw.githubusercontent.com/Julia-IO/Interactive_Frontend_Development_Milestone_Project_Hello_Tester/master/assets/css/images/MacBook_Pro_View.png" style="margin: 0;"></h2><br>
+<h1 align="center">iPad Pro View (Portrait)</h1>
 <h2 align="center"><img src="https://raw.githubusercontent.com/Julia-IO/Interactive_Frontend_Development_Milestone_Project_Hello_Tester/master/assets/css/images/iPad_Pro_View.png" style="margin: 0;"></h2><br>
+<h1 align="center">iPhone 11 View (Portrait)</h1>
+<h2 align="center"><img src="https://raw.githubusercontent.com/Julia-IO/Interactive_Frontend_Development_Milestone_Project_Hello_Tester/master/assets/css/images/iPhone_11_View.png" style="margin: 0;"></h2><br>
 
 
 ## User Experience (UX)
