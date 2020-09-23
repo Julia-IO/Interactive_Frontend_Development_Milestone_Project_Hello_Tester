@@ -92,6 +92,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
+Also, I have use Free Formatter to give format to my HTML files with the correct indentation level. 
+
+- [Free Formatter] (https://www.freeformatter.com)
+
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
