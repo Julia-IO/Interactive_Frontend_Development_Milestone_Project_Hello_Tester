@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/Julia-IO/Interactive_Frontend_Development_Milestone_Project_Hello_Tester/master/documentation/hello-tester.png" style="margin: 0;">
+<img src="https://raw.githubusercontent.com/Julia-IO/Interactive_Frontend_Development_Milestone_Project_Hello_Tester/master/assets/css/images/hello-tester.png" style="margin: 0;">
 
 <h1 align="center">Hello Tester Website</h1>
 
