@@ -68,21 +68,21 @@
 			<div class="card_bottom">
 				<h2 class="card_head">Deva Johnson (es_ES)</h2>
 				<p class="card_para">Deva is originally from the North of Spain. She graduated with a degree in Translation and Languages Interpreting from the Universidad Pontificia de Comillas (Madrid, Spain) and she then studied Applied Linguistics at the Universidad de Salamanca (Spain) and a Full Stack Software Development Diploma in Code Institute (Ireland). Her extensive experience includes working as QA Lead for Media Minds, a Wayra 2013 winner company specialised in developping educational apps and housed inside Telefonica's incubator in Madrid, and as QA Software Engineer for Apple in Siri Department. </p>
-				<a href="deva.html"> <button class="bottom_button" id="button_effects1">Learn more!</button></a>
+				<a href="https://www.linkedin.com/in/juliadiezlopez/" target="_blank"><button class="bottom_button">LinkedIn Profile!</button></a>
 			</div>
 		</div>
     <div class="card stream">
 			<img class="card_image" src="assets/css/images/nico.png" alt="coding icon">	
 			<h2 class="card_head">Nico Díez (es_ES)</h2>
 			<p class="card_para">Nico was born in Madrid and graduated from the University of Granada, Spain, in 2007 with a Degree in Translation and Interpreting. He worked for the University’s Translation Service during his last year as an English-Spanish translator and project manager. He then studied an European MA in Audiovisual Translation at the Autonomous University of Barcelona. The job that genuinely got his career off the ground was his two-year stint at Nintendo of Europe in Frankfurt, Germany. After that, he's been involved in hundreds of projects of video game, software, mobile apps and website localisation.</p>
-			<a href="nico.html"> <button class="bottom_button">Learn more!</button></a>
+			<a href="https://www.linkedin.com/in/juliadiezlopez/" target="_blank"><button class="bottom_button">LinkedIn Profile!</button></a>
 		</div>
 		
 		<div class="card stream">
 			<img class="card_image" src="assets/css/images/julia.png" alt="coding icon">
 			<h2 class="card_head">Julia Handal (es_ES)</h2>
 			<p class="card_para">Julia was born in Barcelona where she studied a degree in Translation and Interpreting and also a degree in Graphic Design. She cut her teeth as a translator at a small translation agency based in Granada where she started to work as a translator and localization engineer fresh out of college. In 2012 she got a job as a Spanish Quality Assurance Localisation Technician for an important videogames publisher in London. She specializes in audiovisual translation, localization and DTP and has took part in hundreds of projects with a strong creative and technological profile.  </p>
-			<button class="bottom_button">Learn more!</button>
+			<a href="https://www.linkedin.com/in/juliadiezlopez/" target="_blank"><button class="bottom_button">LinkedIn Profile!</button></a>
 		</div>
         </div>
   
@@ -92,7 +92,7 @@
             <section class="quotes">
                 <div class="row">
                     <div class="col-12 page-header">
-                        <h2 class="text-uppercase">Essencial skills:</h2>
+                        <h2 class="text-uppercase">Why hire them:</h2>
                         <hr class="block-divider block-divider--short">
                     </div>
                 </div>
@@ -135,7 +135,7 @@
 
  <div class="row">
                     <div class="col-12 page-header">
-                        <h2 class="text-uppercase">Equipment:</h2>
+                        <h2 class="text-uppercase">Equipment and Skills:</h2>
                         <hr class="block-divider block-divider--short">
                     </div>
                 </div>
@@ -175,6 +175,18 @@
   <div class="filterDiv languages">Danish</div>
 </div>
 
+ <div class="row">
+                    <div class="col-12 page-header">
+                        <h2 class="text-uppercase"><br><br>Where are they:</h2>
+                        <hr class="block-divider block-divider--short">
+                    </div>
+                </div>
+
+<div class="container-wrapper container-wrapper--white">
+        <div class="container features-container content-container">
+<div id="map"></div>
+        </div>
+</div>
 
     <!-- Features -->
     <div class="container-wrapper container-wrapper--red">
@@ -214,33 +226,6 @@
         </div>
     </div>
 
-    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Get in touch with Hello Tester!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <input type="message" class="form-control" id="message" placeholder="Message">
-                        </div>
-                    
-                        <button type="submit" class="btn btn-success">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
 
        <!-- Site footer -->
     <footer class="site-footer">
@@ -304,7 +289,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>    
     <script src="https://kit.fontawesome.com/8c5fda933e.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@google/markerclustererplus@5.1.0/dist/markerclustererplus.min.js"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzKDYdv5aDd01u6O01OtrRUajXsSF5Zek&callback=initMap"></script>
+    <script src="assets/js/maps.js"></script>
     <script src="assets/js/testers.js"></script>
+
 </body>
 
 </html>
+
