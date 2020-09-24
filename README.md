@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/Julia-IO/Interactive_Frontend_Development_Milestone_Project_Hello_Tester/master/assets/css/images/hello-tester-logo.png" style="margin: 0;">
+<img src="https://raw.githubusercontent.com/Julia-IO/Interactive_Frontend_Development_Milestone_Project_Hello_Tester/master/documentation/hello-tester.png" style="margin: 0;">
 
 <h1 align="center">Hello Tester Website</h1>
 
@@ -88,11 +88,14 @@ This is the main website for Hello Tester. It is designed to be responsibe and a
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - 2 warnings but they affected the Calendly Script so I decided not to touch it (Third Party to Resolve).
+<img src="https://raw.githubusercontent.com/Julia-IO/Interactive_Frontend_Development_Milestone_Project_Hello_Tester/master/documentation/html-validation.png" style="margin: 0;">
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - Results: No Error Found. This documents validates as CSS level 3 + SVG!
+<img src="https://raw.githubusercontent.com/Julia-IO/Interactive_Frontend_Development_Milestone_Project_Hello_Tester/master/documentation/css-validation.png" style="margin: 0;">
+-   [JSHint](https://jshint.com/) - I used JSHint to detect errors and potential problems in JavaScript code. Only issue: missing colons, which I tried to solved to the best of my skills.
 
 Also, I have use Free Formatter to give format to my HTML files with the correct indentation level. 
 
-- [FreeFormatter:] (https://www.freeformatter.com)
+- [FreeFormatter:] (https://www.freeformatter.com/)
 
 ### Testing User Stories from User Experience (UX) Section
 
