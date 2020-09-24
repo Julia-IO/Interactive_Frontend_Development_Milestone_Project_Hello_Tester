@@ -15,11 +15,7 @@ body {
 
 .callout-container {
     height: 100vh;
-
     background: url('../css/images/binario_background.jpg') no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     
     display: flex;
@@ -131,7 +127,7 @@ body {
 .btn--red {
     color: white;
     background-color: #f05f40;
-    border-color: #f05f40;
+    
 }
 
 .btn--red:hover,
@@ -139,7 +135,6 @@ body {
 .btn--red:focus,
 .btn--red:active:focus {
     background-color: #df4929;
-    border-color: #df4929;
     color: white;
 }
 
@@ -153,7 +148,6 @@ body {
 .site-wide-alert {
     color: #544600;
     background-color: #eec802;
-    border-color: #eec802;
     padding: 5px 15px;
     margin-bottom: 0;
     border: 1px solid transparent;
@@ -194,7 +188,6 @@ body {
 
 .feature .btn {
     background-color: white;
-    border-color: white;
     border-radius: 15px;
     min-width: 100px;
     font-weight: bold;
@@ -295,7 +288,6 @@ div{
   border: 1px solid #eee;
   margin: 0;
   padding: 0;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -362,7 +354,6 @@ div{
 
 .about .btn {
     background-color: white;
-    border-color: white;
     border-radius: 15px;
     min-width: 100px;
     font-weight: bold;
@@ -523,8 +514,6 @@ div{
   text-align:center;
   margin-right:8px;
   border-radius:100%;
-  -webkit-transition:all .2s linear;
-  -o-transition:all .2s linear;
   transition:all .2s linear
 }
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover

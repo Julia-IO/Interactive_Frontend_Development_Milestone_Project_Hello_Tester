@@ -68,21 +68,21 @@
 			<div class="card_bottom">
 				<h2 class="card_head">Lauren Jauregui (es_US)</h2>
 				<p class="card_para">Lauren is originally from Cuba. She moved to USA with her family when she was just 2 years old. She graduated with a Master of Arts in Translation and Localization Management from the Middlebury Institute of International Studies and she then studied a Full Stack Software Development Diploma in Code Institute (Ireland). Her extensive experience includes working as QA Lead for Google and as part of the localisation department of Tesla.</p>
-				<button class="bottom_button" id="button_effects1">Download CV!</button>
+				<a href="https://www.linkedin.com/in/juliadiezlopez/" target="_blank"><button class="bottom_button">LinkedIn Profile!</button></a>
 			</div>
 		</div>
     <div class="card stream">
 			<img class="card_image" src="assets/css/images/roberto.png" alt="coding icon">	
 			<h2 class="card_head">Roberto Hayek (es_US)</h2>
 			<p class="card_para">Roberto was born in Miami. After finishing his studies in Software Development, he realised his true passion was working with languages and videogames. His dream came true when he started to work as QA Lead for Activision, testing each project assigned to identify localisation and functional bugs. Thanks to his strong programming and technical skills, he's also participated in projects for Dell, Microsoft, Facebook and Oracle.</p>
-			<button class="bottom_button">Download CV!</button>
+			<a href="https://www.linkedin.com/in/juliadiezlopez/" target="_blank"><button class="bottom_button">LinkedIn Profile!</button></a>
 		</div>
 		
 		<div class="card stream">
 			<img class="card_image" src="assets/css/images/irean.png" alt="coding icon">
 			<h2 class="card_head">Irean Smith (es_US)</h2>
 			<p class="card_para">After obtaining her BA in Translation and Interpreting, Irean studied a Master’s in teaching English as a second language and afterwards she developed an interest for Computational Linguistics. She obtained a Cognitive Science and Language Master’s degree and has worked mainly as Natural Language Processing localisation project manager and localiser. Her favourite programming language is Python and she is truly passionate about Language and Computation. </p>
-			<button class="bottom_button">Download CV!</button>
+			<a href="https://www.linkedin.com/in/juliadiezlopez/" target="_blank"><button class="bottom_button">LinkedIn Profile!</button></a>
 		</div>
         </div>
   
@@ -93,7 +93,7 @@
             <section class="quotes">
                 <div class="row">
                     <div class="col-12 page-header">
-                        <h2 class="text-uppercase">Essencial skills:</h2>
+                        <h2 class="text-uppercase">Why hire them:</h2>
                         <hr class="block-divider block-divider--short">
                     </div>
                 </div>
@@ -131,9 +131,12 @@
     </div>
 
 
+
+
+
  <div class="row">
                     <div class="col-12 page-header">
-                        <h2 class="text-uppercase">Equipment:</h2>
+                        <h2 class="text-uppercase">Equipment and Skills:</h2>
                         <hr class="block-divider block-divider--short">
                     </div>
                 </div>
@@ -142,6 +145,8 @@
   <button class="btn active" onclick="filterSelection('all')"> Show all</button>
   <button class="btn" onclick="filterSelection('devices')"> Devices</button>
   <button class="btn" onclick="filterSelection('systems')"> Operating Systems</button>
+  <button class="btn" onclick="filterSelection('languages')"> Languages</button>
+   <button class="btn" onclick="filterSelection('programming')"> Programming Languages</button>
  
 </div>
 
@@ -161,10 +166,35 @@
   <div class="filterDiv devices">MacBook Pro</div>
   <div class="filterDiv devices">Surface Duo</div>
   <div class="filterDiv devices">Galaxy Fold</div>
+  <div class="filterDiv devices">Intel i9</div>
+  <div class="filterDiv devices">Surface Book</div>
   <div class="filterDiv systems">Windows</div>
   <div class="filterDiv systems">Mac OS</div>
   <div class="filterDiv systems">Android OS</div>
   <div class="filterDiv systems">iOS</div>
+  <div class="filterDiv languages">English</div>
+  <div class="filterDiv languages">French</div>
+  <div class="filterDiv languages">Italian</div>
+  <div class="filterDiv languages">German</div>
+  <div class="filterDiv languages">Danish</div>
+  <div class="filterDiv programming">CSS</div>
+  <div class="filterDiv programming">HTML</div>
+  <div class="filterDiv programming">JavaScript</div>
+  <div class="filterDiv programming">Python</div>
+  <div class="filterDiv programming">Swift</div>
+</div>
+
+ <div class="row">
+                    <div class="col-12 page-header">
+                        <h2 class="text-uppercase"><br><br>Where are they:</h2>
+                        <hr class="block-divider block-divider--short">
+                    </div>
+                </div>
+
+<div class="container-wrapper container-wrapper--white">
+        <div class="container features-container content-container">
+<div id="map"></div>
+        </div>
 </div>
 
 
@@ -296,6 +326,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>    
     <script src="https://kit.fontawesome.com/8c5fda933e.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@google/markerclustererplus@5.1.0/dist/markerclustererplus.min.js"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzKDYdv5aDd01u6O01OtrRUajXsSF5Zek&callback=initMap"></script>
+    <script src="assets/js/maps.js"></script>
     <script src="assets/js/testers.js"></script>
 </body>
 

@@ -68,21 +68,21 @@
 			<div class="card_bottom">
 				<h2 class="card_head">Rosalía Miranda (es_LA)</h2>
 				<p class="card_para">Rosalía was born and lives in Mexico DC and holds a certificate in Software Localisation from the University of Washington and a Certificate in Translation from the University of California. She's been Senior Localisation at Roblox in charge of bringing its voice to its amazing Spanish-speaking community of users, developers, and influencers around Latin American through localization and translation of its platform, developer tools, marketing and social media.  </p>
-				<button class="bottom_button" id="button_effects1">Download CV!</button>
+				<a href="https://www.linkedin.com/in/juliadiezlopez/" target="_blank"><button class="bottom_button">LinkedIn Profile!</button></a>
 			</div>
 		</div>
     <div class="card stream">
 			<img class="card_image" src="assets/css/images/alexis.png" alt="coding icon">	
 			<h2 class="card_head">Alexis Güelfi (es_LA)</h2>
 			<p class="card_para">Alexis is originally from Chile and has studied a BA in Translation at the Universidad de Barcelona. He also holds a Certificate in Software Development from the Unvirsity of Michigan. He's managed many projects for tech start-ups specialising in websites and software localization to Latin America by keeping great usability, the local culture and IT and software related requirements in mind.</p>
-			<button class="bottom_button">Download CV!</button>
+			<a href="https://www.linkedin.com/in/juliadiezlopez/" target="_blank"><button class="bottom_button">LinkedIn Profile!</button></a>
 		</div>
 		
 		<div class="card stream">
 			<img class="card_image" src="assets/css/images/alicia.png" alt="coding icon">
 			<h2 class="card_head">Alicia Rodriguez (es_LA)</h2>
 			<p class="card_para">Alicia was born in Buenos Aires and she currently lives in Mexico. She holds a BA in Translation and Languages Interpreting from the University of Cordoba and a certificate in Graphic Design and Front-End Development. She's an expert in pseudolocalization testing, coordinating all aspects of localization process and providing quality control by performing internal reviews for content after translation.  </p>
-			<button class="bottom_button">Download CV!</button>
+			<a href="https://www.linkedin.com/in/juliadiezlopez/" target="_blank"><button class="bottom_button">LinkedIn Profile!</button></a>
 		</div>
         </div>
   
@@ -93,7 +93,7 @@
             <section class="quotes">
                 <div class="row">
                     <div class="col-12 page-header">
-                        <h2 class="text-uppercase">Essencial skills:</h2>
+                        <h2 class="text-uppercase">Why hire them:</h2>
                         <hr class="block-divider block-divider--short">
                     </div>
                 </div>
@@ -131,9 +131,12 @@
     </div>
 
 
+
+
+
  <div class="row">
                     <div class="col-12 page-header">
-                        <h2 class="text-uppercase">Equipment:</h2>
+                        <h2 class="text-uppercase">Equipment and Skills:</h2>
                         <hr class="block-divider block-divider--short">
                     </div>
                 </div>
@@ -142,6 +145,8 @@
   <button class="btn active" onclick="filterSelection('all')"> Show all</button>
   <button class="btn" onclick="filterSelection('devices')"> Devices</button>
   <button class="btn" onclick="filterSelection('systems')"> Operating Systems</button>
+  <button class="btn" onclick="filterSelection('languages')"> Languages</button>
+   <button class="btn" onclick="filterSelection('programming')"> Programming Languages</button>
  
 </div>
 
@@ -161,12 +166,36 @@
   <div class="filterDiv devices">MacBook Pro</div>
   <div class="filterDiv devices">Surface Duo</div>
   <div class="filterDiv devices">Galaxy Fold</div>
+  <div class="filterDiv devices">Intel i9</div>
+  <div class="filterDiv devices">Surface Book</div>
   <div class="filterDiv systems">Windows</div>
   <div class="filterDiv systems">Mac OS</div>
   <div class="filterDiv systems">Android OS</div>
   <div class="filterDiv systems">iOS</div>
+  <div class="filterDiv languages">English</div>
+  <div class="filterDiv languages">French</div>
+  <div class="filterDiv languages">Italian</div>
+  <div class="filterDiv languages">German</div>
+  <div class="filterDiv languages">Danish</div>
+  <div class="filterDiv programming">CSS</div>
+  <div class="filterDiv programming">HTML</div>
+  <div class="filterDiv programming">JavaScript</div>
+  <div class="filterDiv programming">Python</div>
+  <div class="filterDiv programming">Swift</div>
 </div>
 
+ <div class="row">
+                    <div class="col-12 page-header">
+                        <h2 class="text-uppercase"><br><br>Where are they:</h2>
+                        <hr class="block-divider block-divider--short">
+                    </div>
+                </div>
+
+<div class="container-wrapper container-wrapper--white">
+        <div class="container features-container content-container">
+<div id="map"></div>
+        </div>
+</div>
     <!-- Features -->
     <div class="container-wrapper container-wrapper--red">
         <div class="container features-container content-container">
@@ -295,6 +324,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>    
     <script src="https://kit.fontawesome.com/8c5fda933e.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@google/markerclustererplus@5.1.0/dist/markerclustererplus.min.js"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzKDYdv5aDd01u6O01OtrRUajXsSF5Zek&callback=initMap"></script>
+    <script src="assets/js/maps.js"></script>
     <script src="assets/js/testers.js"></script>
 </body>
 
