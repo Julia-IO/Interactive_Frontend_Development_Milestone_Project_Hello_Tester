@@ -78,7 +78,10 @@ This is the main website for Hello Tester. It is designed to be responsibe and a
     - Grammarly was used to check the texts as I am not an English native.
 1. [Calendly:](https://calendly.co)
     - Calendly widget was included in all pages of the website so that users can easly schedule a meeting with Hello Tester anytime.
-
+1. [EmailJS:](https://www.emailjs.com/)
+    - EmailJS was used to send Email directly from JavaScript at the contact form.
+1. [Google Maps Platform:](https://developers.google.com/maps/documentation/javascript/overview?utm_source=google&utm_medium=cpc&utm_campaign=FY18-Q2-global-demandgen-paidsearchonnetworkhouseads-cs-maps_contactsal_saf&utm_content=text-ad-none-none-DEV_c-CRE_432247684943-ADGP_Hybrid+%7C+AW+SEM+%7C+BKWS+%7E+Brand+%7C+EXA+%7C+Google+Maps+Javascript+API-KWID_43700053307524074-aud-599078372864%3Akwd-332054278444-userloc_1007835&utm_term=KW_maps+javascript+api-ST_maps+javascript+api&gclid=CjwKCAjwh7H7BRBBEiwAPXjaduFLOrfQ_el3pnFJE-4ZzoPHQLxgf9dyVfZMu78-qrnYSkrDv-4MshoC_ooQAvD_BwE)
+    - Google Maps Platform was used to link Maps JavaScript API within my project.    
 
 ## Testing
 
@@ -162,7 +165,6 @@ The project was deployed to GitHub Pages using the following steps...
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
--   
 ### Content
 
 -   All content was written by the develope, but inspired in a series of existing translation services.
