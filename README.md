@@ -68,8 +68,6 @@ This is the main website for Hello Tester. It is designed to be responsibe and a
 
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
@@ -80,8 +78,8 @@ This is the main website for Hello Tester. It is designed to be responsibe and a
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
+1. [Canva:](https://www.canva.com/)
+    - Canva was used to create the logo, and also the brochures which are able to be downloaded from the website.
 1. [Figma:](https://www.figma.com/)
     - Figma was used to create the [wireframes](https://github.com/) during the design process.
 
@@ -94,7 +92,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 Also, I have use Free Formatter to give format to my HTML files with the correct indentation level. 
 
-- [Free Formatter] (https://www.freeformatter.com)
+- [FreeFormatter] (https://www.freeformatter.com)
 
 ### Testing User Stories from User Experience (UX) Section
 
