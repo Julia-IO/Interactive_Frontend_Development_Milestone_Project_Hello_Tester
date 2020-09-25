@@ -37,7 +37,7 @@ This is the main website for Hello Tester. It is designed to be responsibe and a
     -   #### Typography
         -   Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto is a friendly font used frequently in programming, so it is both attractive and appropriate.
     -   #### Imagery
-        -   We've created avatars of the testers to creste a sense of closeness.
+        -   We've created avatars of the testers to create a sense of closeness.
 
 
 ## Features
@@ -95,7 +95,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 Also, I have use Free Formatter to give format to my HTML files with the correct indentation level. 
 
-- [FreeFormatter:] (https://www.freeformatter.com/)
+- [FreeFormatter] (https://www.freeformatter.com/)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -170,9 +170,9 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Content
 
--   All content was written by the develope, but inspired in a series of existing translation services.
+-   All content was written by the developer, but inspired in a series of existing translation services.
 
--   There's been a constan effort to give space to the content so that it would be easy to be read.
+-   There's been a constant effort to give space to the content so that it would be easy to be read.
 
 ### Media
 
